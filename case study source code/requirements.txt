@@ -1,0 +1,19 @@
+
+Required Libraries:
+pandas
+streamlit(for web deployment)
+requests
+beautifulsoup
+csv
+
+To install any library:
+pip install <libraryname>
+
+Input:(datawebsite.csv)
+Reading links of the website using datawebsite.csv
+
+Output:(healthdata.csv)
+Output of healthdata.csv file contains data web scraped from website 
+
+For web deployment run the following command:
+streamlit run apprunn.py
